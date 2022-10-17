@@ -1,6 +1,6 @@
 {
   "name": "@csobj/heft-babel-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1-beta.0",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
