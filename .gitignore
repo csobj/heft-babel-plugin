@@ -60,6 +60,7 @@ jspm_packages/
 
 # Rush temporary files
 .rush/temp/
+_tmp_*
 
 # Heft
 .heft
