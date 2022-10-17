@@ -39,20 +39,10 @@
             "description": "File extension for generated code file",
             "default": ".js"
         },
-        "plugins": {
-            "type": "array",
-            "description": "A list of active babel plugins."
-        },
-        "presets": {
-            "type": "array",
-            "description": "A list of active babel presets."
-        },
-        "sourceMaps": {
-            "description": "sourceMaps of babel transform options",
-            "type": [
-                "string",
-                "boolean"
-            ]
+        "emitFolderNameForTests": {
+            "type": "string",
+            "description": "Intermediary folder that tests will use",
+            "default": "lib-commonjs"
         }
     }
 }

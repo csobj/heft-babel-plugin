@@ -43,7 +43,7 @@ export interface IBabelConfiguration {
    * Specifies the intermediary folder that tests will use.  Because Jest uses the
    * Node.js runtime to execute tests, the module format must be CommonJS.
    *
-   * The default value is "lib".
+   * The default value is "lib-commonjs".
    */
   emitFolderNameForTests?: string;
 }
@@ -86,7 +86,7 @@ export class BabelProcessor {
       srcFolder: 'src/',
       outFolder: 'lib/',
       outputFileExtension: '.js',
-      emitFolderNameForTests: 'lib',
+      emitFolderNameForTests: 'lib-commonjs',
       fileExtensions: ['.js'],
       ...options.babelConfiguration
     };
