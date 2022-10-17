@@ -4,7 +4,7 @@
 
 ## Quick Setup
 
-```json
+```jsonc
 /**
  * [config/babel.json]
  * Following json object describe configuration schema for this plugin and default value.
