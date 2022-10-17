@@ -11,6 +11,11 @@
   },
   "author": "jeongho.lee <root@csobj.com>",
   "license": "MIT",
+  "files": [
+    "lib/**",
+    "README.md",
+    "CHANGELOG.md"
+  ],
   "dependencies": {
     "@rushstack/heft-config-file": "^0.11.3",
     "@rushstack/node-core-library": "^3.53.2",
