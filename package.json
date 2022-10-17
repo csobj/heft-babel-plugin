@@ -16,6 +16,9 @@
     "README.md",
     "CHANGELOG.md"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@rushstack/heft-config-file": "^0.11.3",
     "@rushstack/node-core-library": "^3.53.2",
